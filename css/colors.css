@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.box-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5rem auto;
+    height: 600px;
+    overflow: hidden;
+    width: 75%;
+}
+
+.box{
+    align-items: center;
+    background-color: blanchedalmond;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
